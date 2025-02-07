@@ -1,5 +1,5 @@
 """""""
-2. Read in a Fahrenheit temperature. 
+Read in a Fahrenheit temperature. 
    - Calculate and display the equivalent centigrade temperature. 
    - Formula: C = (5 / 9) * (F – 32)
 """""""
