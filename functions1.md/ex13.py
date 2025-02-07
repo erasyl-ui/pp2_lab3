@@ -1,6 +1,5 @@
-"""""""
-Write a program able to play the "Guess the number" game, where the number to be guessed is randomly chosen between 1 and 20.
-"""""""
+"""Write a program able to play the "Guess the number" game, where the number to be guessed 
+is randomly chosen between 1 and 20."""
 
 import random
 
@@ -21,5 +20,7 @@ def guess_the_number():
             print(f"Good job, {name}! You guessed my number in {attempts} guesses!")
             break
 
-# Example:
 guess_the_number()
+
+# Example:
+# Input: 12 → too low, 16 → too low, 19 → Correct!
