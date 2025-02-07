@@ -1,6 +1,4 @@
-"""""""
-Write a function that takes in a list of integers and returns True if it contains 007 in order.
-"""""""
+"""Write a function that takes in a list of integers and returns True if it contains 007 in order"""
 
 def spy_game(nums):
     code = [0, 0, 7]
@@ -11,6 +9,9 @@ def spy_game(nums):
             return True
     return False
 
-# Example:
 numbers = list(map(int, input("Enter numbers separated by space: ").split()))
 print(spy_game(numbers))
+
+# Example:
+# Input: 1 2 4 0 0 7 5
+# Output: True
