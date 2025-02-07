@@ -1,5 +1,5 @@
 """""""
-Write a program which can filter prime numbers in a list by using filter function. 
+6. Write a program which can filter prime numbers in a list by using the filter function.
    - Note: Use lambda to define anonymous function.
 """""""
 
@@ -11,11 +11,11 @@ def is_prime(n):
             return False
     return True
 
-numbers = [10, 3, 5, 8, 19, 25, 31]
+numbers = list(map(int, input("Enter numbers separated by space: ").split()))
 prime_numbers = list(filter(lambda x: is_prime(x), numbers))
 
 # Example:
-# Input: [10, 3, 5, 8, 19, 25, 31]
+# Input: 10 3 5 8 19 25 31
 # Output: Prime Numbers: [3, 5, 19, 31]
 
 print("Prime Numbers:", prime_numbers)
