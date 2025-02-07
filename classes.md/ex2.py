@@ -1,6 +1,6 @@
 """""""
-Define a class named Shape and its subclass Square. 
-   - The Square class has an init function which takes a length as argument. 
+2. Define a class named Shape and its subclass Square.
+   - The Square class has an init function which takes a length as argument.
    - Both classes have an area function which can print the area of the shape where Shape's area is 0 by default.
 """""""
 
@@ -16,8 +16,9 @@ class Square(Shape):
         return self.length * self.length
 
 # Example:
-# square = Square(5)
-# Output: Square Area: 25
+# Input: 5
+# Output: 25
 
-square = Square(5)
+length = float(input("Enter the length of the square: "))
+square = Square(length)
 print("Square Area:", square.area())
